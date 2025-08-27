@@ -8,7 +8,7 @@
 
 ## 📹 Демонстрация работы приложения
 
-[![Видеодемонстрация](https://img.shields.io/badge/🎥-Смотреть_видео-ff69b4)](https://github.com/ваш-username/ваш-репозиторий/raw/main/videos/demo.mp4)
+[![Видеодемонстрация](https://img.shields.io/badge/🎥-Смотреть_видео-ff69b4)]([https://github.com/ваш-username/ваш-репозиторий/raw/main/videos/demo.mp4](https://github.com/DarinaGurs/django-managesystemproject-Yourproject/blob/main/app-work-record_dAXNwY5B.mp4))
 
 ## Технологический стек
 
