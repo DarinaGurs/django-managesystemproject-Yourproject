@@ -1,0 +1,22 @@
+{% extends 'reportgenerate/base.html' %}
+{% block content %}
+<br/>
+<br/>
+{% if form.errors %}
+<div class="alert alert-warning alert-dismissible fade show" role="alert"> Ошибка в заполнении
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endif %}
+<br/>
+<h1>Регистрация</h1>
+<br/>
+<br/>
+    <form action="{% url 'register_user' %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+<br/><br/>
+        <input type="submit" value="Зарегистрироваться" class="btn btn-dark">
+    </form>
+<br/>
+<br/>
+{% endblock %}
